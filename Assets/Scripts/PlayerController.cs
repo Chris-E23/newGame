@@ -39,7 +39,7 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
-
+ Cursor.lockState = CursorLockMode.Locked;
         readyToJump = true;
     }
 
