@@ -51,7 +51,7 @@ public class gameController : MonoBehaviour
        
         timeRemaining = classTime;
         screen.SetActive(true);
-         Cursor.lockState = CursorLockMode.Locked;
+        
         cam = Camera.main;
         
         pause = true;

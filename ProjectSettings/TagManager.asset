@@ -17,6 +17,7 @@ TagManager:
   - lunchbox
   - player
   - skipbutton
+  - crate
   layers:
   - Default
   - TransparentFX
